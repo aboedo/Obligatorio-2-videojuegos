@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class plane : MonoBehaviour {
+public class propeller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -10,12 +10,11 @@ public class plane : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		transform.Rotate (0, 10, 0);
 	}
 
 	void FixedUpdate()
 	{
 
 	}
-
 }
