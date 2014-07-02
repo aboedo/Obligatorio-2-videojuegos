@@ -13,13 +13,18 @@ public class airplane : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 //		rigidbody.AddForce (0, 0, 10);
-		float fire1Pressed = Input.GetAxis("Fire1");
+		bool throttlePressed = Input.GetAxis("Throttle") == 1;
+		bool brakePressed = Input.GetAxis("Brake") == 1;
 
+		Debug.Log ("brake: " + brakePressed);
+		Debug.Log ("throttle: " + throttlePressed);
 
-		Debug.Log(fire1Pressed + "");
-		//		float fire2Pressed = Input.GetAxis ("Fire2");
-		rigidbody.AddForce(transform.up * fire1Pressed * -30);
-		//		rigidbody.AddForce(transform.up * fire2Pressed * 30);
+		if (throttlePressed) {
+			rigidbody.AddForce(transform.up * -30);
+		}
+		if (brakePressed) {
+			rigidbody.AddForce(transform.up * 30);
+		}
 
 	}
 
@@ -28,8 +33,8 @@ public class airplane : MonoBehaviour {
 		verticalAxis = Input.GetAxis ("Vertical");
 
 		horizontalAxis = Input.GetAxis ("Horizontal");
-//		transform.Rotate (transform.forward * horizontalAxis);
-//		transform.Rotate(transform.right * verticalAxis);
+		transform.Rotate (transform.forward * horizontalAxis);
+		transform.Rotate(transform.right * verticalAxis);
 
 
 
