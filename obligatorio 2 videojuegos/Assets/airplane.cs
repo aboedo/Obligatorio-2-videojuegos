@@ -35,6 +35,7 @@ public class airplane : MonoBehaviour {
 		horizontalAxis = Input.GetAxis ("Horizontal");
 		transform.Rotate (transform.forward * horizontalAxis);
 		transform.Rotate(transform.right * verticalAxis);
+		transform.FindChild("propeller").transform.Rotate (0, 10 * rigidbody.velocity.z, 0);
 
 
 
