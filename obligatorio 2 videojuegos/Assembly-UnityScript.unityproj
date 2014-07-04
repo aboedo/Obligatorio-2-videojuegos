@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AircraftCamera\AircraftCamera.js" />
+     <Compile Include="Assets\AircraftCamera\Example\SideCamera.js" />
+     <Compile Include="Assets\AircraftCamera\Example\controlls.js" />
      <Compile Include="Assets\anotherFollow.js" />
      <Compile Include="Assets\betterCameraScript.js" />
      <Compile Include="Assets\cameraScript.js" />

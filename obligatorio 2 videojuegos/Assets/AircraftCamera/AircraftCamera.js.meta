@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9dd44b47d414f4fb4bc9ca1174d89da6
+labels:
+- spaceship
+- aircraft
+- fly
+- flight
+- controller
+- control
+- behind
+- after
+- script
+- space
+- simulator
+- airplane
+- rocket
+- ship
+- air
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
