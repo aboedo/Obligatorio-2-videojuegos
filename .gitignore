@@ -8,4 +8,36 @@ obligatorio 2 videojuegos/Library/assetDatabase3
 obligatorio 2 videojuegos/Library/metadata/69/6927ea6f85f694f9a908d749c79b008e
 obligatorio 2 videojuegos/Library/expandedItems
 obligatorio 2 videojuegos/Library/metadata/0f/0fea7e4669e564405bfa37bf07263592
-obligatorio 2 videojuegos/Library/metadata
+
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
