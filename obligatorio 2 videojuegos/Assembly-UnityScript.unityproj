@@ -46,7 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\anotherFollow.js" />
+     <Compile Include="Assets\betterCameraScript.js" />
      <Compile Include="Assets\cameraScript.js" />
+     <Compile Include="Assets\spaceShipCamera3.js" />
+     <Compile Include="Assets\spaceshipCamera2.js" />
+     <Compile Include="Assets\spaceshipSmoothFollow.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\license.txt" />
