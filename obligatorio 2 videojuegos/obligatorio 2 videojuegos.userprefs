@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/cameraScript.js">
     <Files>
+      <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js" Line="1" Column="1" />
       <File FileName="Assets/propeller.cs" Line="21" Column="1" />
-      <File FileName="Assets/airplane.cs" Line="27" Column="3" />
-      <File FileName="Assets/propeller.cs" Line="13" Column="3" />
-      <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js" Line="32" Column="48" />
+      <File FileName="Assets/airplane.cs" Line="24" Column="24" />
+      <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js" Line="15" Column="21" />
+      <File FileName="Assets/cameraScript.js" Line="18" Column="86" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
