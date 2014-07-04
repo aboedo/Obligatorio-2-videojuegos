@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+/// ------------------------------------------------------------------------------------------------
+/// <summary>
+/// Handles all airplane movement and physics
+/// </summary>
 public class airplane : MonoBehaviour {
 
 	#region constants
@@ -136,21 +141,58 @@ public class airplane : MonoBehaviour {
 	}
 
 
+	/// ------------------------------------------------------------------------------------------------
+	/// <summary>
+	/// Handle airplane collisions
+	/// </summary>
+	/// <param name="col">Col.</param>
 	void OnCollisionEnter (Collision col)
 	{
 		if(col.gameObject.name == "ground")
 		{
-			animator.SetBool("isGrounded", true);
-			grounded = true;
+			HandleCollisionWithGround();
 		}
 	}
 
+
+	/// ------------------------------------------------------------------------------------------------
+	/// <summary>
+	/// Handle airplane collision with the ground.
+	/// updates the boolean variable isGrounded on the animator, 
+	/// and updates the local boolean variable grounded
+	/// </summary>
+	/// <param name="col">Col.</param>
+	void HandleCollisionWithGround()
+	{
+		animator.SetBool("isGrounded", true);
+		grounded = true;		
+	}
+
+
+	/// ------------------------------------------------------------------------------------------------
+	/// <summary>
+	/// Handle the event when the airplane leaves the ground
+	/// updates the boolean variable isGrounded on the animator, 
+	/// and updates the local boolean variable grounded
+	/// </summary>
+	/// <param name="col">Col.</param>
+	void HandleTakeoff()
+	{
+		animator.SetBool("isGrounded", false);
+		grounded = false;		
+	}
+
+
+	/// ------------------------------------------------------------------------------------------------
+	/// <summary>
+	/// Handle airplane collision exit
+	/// </summary>
+	/// <param name="col">Col.</param>
 	void OnCollisionExit(Collision col)
 	{
 		if(col.gameObject.name == "ground")
 		{
-			animator.SetBool("isGrounded", false);
-			grounded = false;
+			HandleTakeoff();
 		}
 	}
 }
