@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: FlameD
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: ac04e6fab8212304b85bf63c1140d480, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -20,12 +20,72 @@ Material:
           m_Texture: {fileID: 2800000, guid: d236c2e07976ff942a0e23d979e8f4cb, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normals
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Fresnel
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .680999994
+      data:
+        first:
+          name: _ReflectionStrength
+        second: 1
+      data:
+        first:
+          name: _FresnelStrength
+        second: .5
+      data:
+        first:
+          name: _InvFade
+        second: 1
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Colour
+        second: {r: .589552283, g: .589552283, b: .589552283, a: 1}
+      data:
+        first:
+          name: _SpecColour
+        second: {r: .589552283, g: .589552283, b: .589552283, a: 1}
+      data:
+        first:
+          name: _FresnelTint
+        second: {r: .5, g: .5, b: .5, a: 1}
       data:
         first:
           name: _TintColor

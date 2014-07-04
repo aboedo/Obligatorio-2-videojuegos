@@ -38,6 +38,12 @@ public class airplane : MonoBehaviour {
 
 	#endregion
 
+	public GameObject shot;
+	public Transform shotPosition;
+	public float fireRate;
+	private float nextFire;
+	
+	
 	/// ------------------------------------------------------------------------------------------------
 	// Use this for initialization
 	void Start () {
@@ -49,7 +55,15 @@ public class airplane : MonoBehaviour {
 	/// ------------------------------------------------------------------------------------------------
 	// Update is called once per frame
 	void Update () {
-
+		if (Input.GetAxis("flapsRight") == 1 && Time.time > nextFire)
+		{
+			nextFire = Time.time + fireRate;
+			Vector3 position = new Vector3(shotPosition.position.x,  shotPosition.position.y+10 ,shotPosition.position.z);
+			GameObject clone = Instantiate(shot, position, shotPosition.rotation) as GameObject;
+			//Physics.IgnoreCollision(clone.collider, collider);
+			clone.rigidbody.AddForce (transform.forward  * -FLAPS_ROTATION_TORQUE * 10); 
+			//audio.Play ();
+		}
 	}
 
 
