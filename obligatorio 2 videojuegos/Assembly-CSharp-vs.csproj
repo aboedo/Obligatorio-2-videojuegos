@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\airplane.cs" />
+     <Compile Include="Assets\collisionConeArea.cs" />
      <Compile Include="Assets\planeCamera.cs" />
      <Compile Include="Assets\propeller.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
@@ -55,7 +56,7 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\WWII P47 Thunderbolt\aeroplanes.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/andresboedo/Ort/Videojuegos/Obligatorio 2 videojuegos/obligatorio 2 videojuegos/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/gustavo/ob2/obligatorio 2 videojuegos/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
