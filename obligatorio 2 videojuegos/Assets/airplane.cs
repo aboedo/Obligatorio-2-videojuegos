@@ -94,10 +94,8 @@ public class airplane : MonoBehaviour {
 	/// - or the plane is on the ground and the throttle is pressed
 	/// </summary>
 	void UpdatePropeller(){
-		if (!brakePressed && (!grounded || (grounded && throttlePressed))) {
-			Debug.Log("throttle pressed, add torque to propeller");
+		if ((!brakePressed && !grounded) || (grounded && throttlePressed)) {
 			propellerTransform.rigidbody.AddTorque (propellerTransform.transform.up * PROPELLER_SPEED_MULTIPLIER);
-			Debug.Log (propellerTransform.transform.up * PROPELLER_SPEED_MULTIPLIER);
 		}
 	}
 
