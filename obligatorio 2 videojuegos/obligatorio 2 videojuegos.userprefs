@@ -1,18 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AircraftCamera/AircraftCamera.js">
     <Files>
       <File FileName="Assets/propeller.cs" Line="1" Column="1" />
-      <File FileName="Assets/airplane.cs" Line="1" Column="1" />
       <File FileName="Assets/cameraScript.js" Line="1" Column="1" />
       <File FileName="Assets/betterCameraScript.js" Line="1" Column="1" />
       <File FileName="Assets/anotherFollow.js" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js" Line="1" Column="1" />
-      <File FileName="Assets/spaceshipSmoothFollow.js" Line="1" Column="1" />
       <File FileName="Assets/planeCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/spaceShipCamera3.js" Line="23" Column="4" />
-      <File FileName="Assets/AircraftCamera/AircraftCamera.js" Line="48" Column="50" />
+      <File FileName="Assets/spaceShipCamera3.js" Line="1" Column="1" />
+      <File FileName="Assets/AircraftCamera/AircraftCamera.js" Line="16" Column="28" />
+      <File FileName="Assets/AircraftCamera/Example/controlls.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
