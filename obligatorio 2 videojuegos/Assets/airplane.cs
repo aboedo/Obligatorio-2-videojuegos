@@ -38,6 +38,12 @@ public class airplane : MonoBehaviour {
 
 	#endregion
 
+	public GameObject shot;
+	public Transform shotPosition;
+	public float fireRate;
+	private float nextFire;
+	
+	
 	/// ------------------------------------------------------------------------------------------------
 	// Use this for initialization
 	void Start () {
