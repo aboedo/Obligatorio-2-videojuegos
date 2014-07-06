@@ -2,13 +2,19 @@
 using System.Collections;
 
 public class racetrack : MonoBehaviour {
-	
+
+	const float TIME_PENALTY_IN_SECONDS = 2f;
 	public int totalGoals = 14;
 	public int currentGoal = 0;
 	float startTime;
 	float finishTime;
 	bool finished = false;
 	float referenceTime;
+
+	public void AddTimePenalty()
+	{
+		startTime -= TIME_PENALTY_IN_SECONDS;
+	}
 
 	public Transform GetCurrentGoal()
 	{
