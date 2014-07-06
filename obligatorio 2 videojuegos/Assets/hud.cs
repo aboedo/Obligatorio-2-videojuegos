@@ -8,6 +8,7 @@ public class hud : MonoBehaviour {
 	GUIStyle speedGuiStyle;
 	GUIStyle altitudeGuiStyle;
 	GUIStyle goalsGuiStyle;
+	GUIStyle elapsedTimeGuiStyle;
 
 
 	// Use this for initialization
@@ -21,6 +22,8 @@ public class hud : MonoBehaviour {
 		altitudeGuiStyle.fontSize = 24;
 		goalsGuiStyle = new GUIStyle ();
 		goalsGuiStyle.fontSize = 24;
+		elapsedTimeGuiStyle = new GUIStyle ();
+		elapsedTimeGuiStyle.fontSize = 24;
 
 	}
 	
@@ -31,13 +34,20 @@ public class hud : MonoBehaviour {
 	void OnGUI () {
 		DrawSpeed ();
 		DrawAltitude ();
+		DrawTopCenterHudBox ();
 		DrawElapsedTime ();
 		DrawCompletedGoals ();
 	}
 
 	void DrawElapsedTime()
 	{
+		string elapsedTimeString = currentRaceTrack.GetElapsedTime();
+		GUI.Box (new Rect ((Screen.width / 2) - 75 , 25, 125, 70), elapsedTimeString, goalsGuiStyle);
+	}
 
+	void DrawTopCenterHudBox ()
+	{
+		GUI.Box (new Rect ((Screen.width / 2) - 100 , 20, 225, 70), "");
 	}
 
 	void DrawCompletedGoals()

@@ -3,13 +3,35 @@ using System.Collections;
 
 public class racetrack : MonoBehaviour {
 	
-	public int totalGoals = 13;
+	public int totalGoals = 14;
 	public int currentGoal = 0;
-	public Time elapsedTime;
+	float startTime;
+	float finishTime;
+	bool finished = false;
+	float referenceTime;
 
 	public Transform GetCurrentGoal()
 	{
 		return getGoal (currentGoal);
+	}
+
+	public string GetElapsedTime ()
+	{
+		if (!finished) {
+			referenceTime = Time.time;
+		}
+		else 
+		{
+			referenceTime = finishTime;
+		}
+
+		float elapsedTime = (referenceTime - startTime);
+		float minutes  = Mathf.Round(elapsedTime / 60);
+		float seconds  = Mathf.Round(elapsedTime % 60);
+		float fraction = Mathf.Round(elapsedTime * 100) % 100;
+		string elapsedTimeString = string.Format ("Time: {0:00}:{1:00}:{2:000}", minutes, seconds, fraction); 
+
+		return elapsedTimeString;
 	}
 
 	// Use this for initialization
@@ -33,7 +55,9 @@ public class racetrack : MonoBehaviour {
 			ChangeNextGoalColor ();
 			currentGoal += 1;
 			if (currentGoal == totalGoals) {
-					Debug.Log ("You won!");
+				finished = true;
+				finishTime = Time.time;
+				Debug.Log ("You won!");
 			} else {
 					
 			}
@@ -75,5 +99,10 @@ public class racetrack : MonoBehaviour {
 			}
 		}
 		return null;
+	}
+
+	void StartTimer()
+	{
+		startTime = Time.time;
 	}
 }
