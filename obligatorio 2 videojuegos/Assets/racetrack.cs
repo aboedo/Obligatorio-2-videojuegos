@@ -10,6 +10,11 @@ public class racetrack : MonoBehaviour {
 	bool finished = false;
 	float referenceTime;
 
+	public bool isFinished()
+	{
+		return finished;
+	}
+
 	public void AddTimePenalty(int timePenalty)
 	{
 		startTime -= timePenalty;
