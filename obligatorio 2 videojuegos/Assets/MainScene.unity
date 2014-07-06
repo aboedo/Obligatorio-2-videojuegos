@@ -9350,9 +9350,9 @@ Rigidbody:
   m_AngularDrag: 3.30999994
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &1185209959
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9448,7 +9448,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -2.58999991, z: -.200000003}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: .0317434929, y: .00966358185, z: .0296408199}
+  m_ConnectedAnchor: {x: .0317537859, y: .00966739655, z: .0296317283}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -12220,7 +12220,7 @@ MeshCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486098662}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cdf7d3f1ad11f8d6d00011d98d76c639, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12242,7 +12242,7 @@ Transform:
   m_GameObject: {fileID: 1486098662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 152.473633, y: 0, z: 1}
-  m_LocalScale: {x: 10000, y: 100, z: 10000}
+  m_LocalScale: {x: 10000, y: 103.120003, z: 10000}
   m_Children: []
   m_Father: {fileID: 1949808670}
   m_RootOrder: 0
@@ -14877,7 +14877,6 @@ GameObject:
   - 20: {fileID: 1943649455}
   - 124: {fileID: 1943649454}
   - 92: {fileID: 1943649453}
-  - 81: {fileID: 1943649452}
   - 114: {fileID: 1943649456}
   m_Layer: 0
   m_Name: BackCamera
@@ -14898,13 +14897,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 489456307}
   m_RootOrder: 3
---- !u!81 &1943649452
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1943649450}
-  m_Enabled: 1
 --- !u!92 &1943649453
 Behaviour:
   m_ObjectHideFlags: 0
