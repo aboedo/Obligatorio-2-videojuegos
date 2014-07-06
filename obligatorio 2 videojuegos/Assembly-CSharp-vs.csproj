@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\airplane.cs" />
+     <Compile Include="Assets\backCamera.cs" />
      <Compile Include="Assets\collisionConeArea.cs" />
      <Compile Include="Assets\conePenalties.cs" />
      <Compile Include="Assets\engineSound.cs" />

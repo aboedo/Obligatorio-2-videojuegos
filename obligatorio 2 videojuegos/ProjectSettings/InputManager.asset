@@ -133,21 +133,21 @@ InputManager:
     axis: 3
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Mouse ScrollWheel
-    descriptiveName: 
+    m_Name: backCamera
+    descriptiveName: backCamera
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick button 17
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0
-    sensitivity: .100000001
+    gravity: 1000
+    dead: .00100000005
+    sensitivity: 1000
     snap: 0
     invert: 0
-    type: 1
-    axis: 2
-    joyNum: 0
+    type: 0
+    axis: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Horizontal
     descriptiveName: 
