@@ -54,15 +54,21 @@ public class racetrack : MonoBehaviour {
 			ChangeNextGoalColor ();
 			currentGoal += 1;
 			if (currentGoal == totalGoals) {
-				finished = true;
-				finishTime = Time.time;
-				Debug.Log ("You won!");
+				ShowTrackCompleted();
 			} else {
+
 					
 			}
 		}
 	}
 
+	void ShowTrackCompleted()
+	{
+		finished = true;
+		finishTime = Time.time;
+		audio.Play ();
+	}
+	
 	void CompleteCurrentGoal ()
 	{
 		Transform currentGoalCube = getGoal (currentGoal);
