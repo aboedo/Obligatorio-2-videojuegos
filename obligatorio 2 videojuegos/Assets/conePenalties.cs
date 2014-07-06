@@ -3,6 +3,8 @@ using System.Collections;
 
 public class conePenalties : MonoBehaviour {
 
+	public int timePenaltyInSeconds = 2;
+
 	racetrack racetrack;
 
 	// Use this for initialization
@@ -20,7 +22,7 @@ public class conePenalties : MonoBehaviour {
 		if (col.gameObject.name == "airplane") 
 		{
 			audio.PlayOneShot(audio.clip);
-			racetrack.AddTimePenalty();
+			racetrack.AddTimePenalty(timePenaltyInSeconds);
 		}
 	}
 }

@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &16745969
 AudioSource:
   m_ObjectHideFlags: 0
@@ -794,6 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &76925716
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1085,6 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &112940786
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1469,6 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &147396199
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2006,6 +2010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &194993907
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2309,6 +2314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &223771268
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2667,6 +2673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &255606794
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4194,6 +4201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &464207256
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4355,6 +4363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &464261034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4970,6 +4979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &542440581
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5568,6 +5578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &689535799
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7230,6 +7241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &933576980
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7596,6 +7608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &943859460
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8613,6 +8626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1098982106
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9169,6 +9183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1150946704
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9554,6 +9569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1188734858
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9859,6 +9875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 5
 --- !u!82 &1240547940
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10137,6 +10154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1282084627
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10546,6 +10564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1319609056
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10998,6 +11017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1346816088
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11198,6 +11218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1359685427
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12007,6 +12028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 5
 --- !u!82 &1480361391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13333,6 +13355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1691527937
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14193,6 +14216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1817972588
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14588,6 +14612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1914749755
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14931,6 +14956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &1964193138
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15258,6 +15284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &2031024303
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15701,6 +15728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419c2cc58578b4c4a9b1e9512ce0a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timePenaltyInSeconds: 2
 --- !u!82 &2104761319
 AudioSource:
   m_ObjectHideFlags: 0

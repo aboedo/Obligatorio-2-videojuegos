@@ -3,7 +3,6 @@ using System.Collections;
 
 public class racetrack : MonoBehaviour {
 
-	const float TIME_PENALTY_IN_SECONDS = 2f;
 	public int totalGoals = 14;
 	public int currentGoal = 0;
 	float startTime;
@@ -11,9 +10,9 @@ public class racetrack : MonoBehaviour {
 	bool finished = false;
 	float referenceTime;
 
-	public void AddTimePenalty()
+	public void AddTimePenalty(int timePenalty)
 	{
-		startTime -= TIME_PENALTY_IN_SECONDS;
+		startTime -= timePenalty;
 	}
 
 	public Transform GetCurrentGoal()
