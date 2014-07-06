@@ -41,7 +41,20 @@ public class airplane : MonoBehaviour {
 
 	#endregion
 
+	public bool isGrounded()
+	{
+		return grounded;
+	}
 
+	public bool isBraking()
+	{
+		return brakePressed;
+	}
+
+	public bool isAccelerating()
+	{
+		return throttlePressed;
+	}
 	
 	/// ------------------------------------------------------------------------------------------------
 	// Use this for initialization
@@ -95,11 +108,12 @@ public class airplane : MonoBehaviour {
 	/// ------------------------------------------------------------------------------------------------
 	/// <summary>
 	/// Adds torque to the propeller if: 
+	/// - the throttle is pressed
 	/// - the brake is not pressed while in the air
 	/// - or the plane is on the ground and the throttle is pressed
 	/// </summary>
 	void UpdatePropeller(){
-		if ((!brakePressed && !grounded) || (grounded && throttlePressed)) {
+		if (throttlePressed || ((!brakePressed && !grounded) || (grounded && throttlePressed))) {
 			propellerTransform.rigidbody.AddTorque (propellerTransform.transform.up * PROPELLER_SPEED_MULTIPLIER);
 		}
 	}
