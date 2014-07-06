@@ -9,11 +9,13 @@ public class collisionConeArea : MonoBehaviour {
 
 	void Start () {
 		circuit = transform.parent.parent.GetComponent<racetrack> ();
-		Debug.Log (circuit);
 	}
 
 	void OnTriggerEnter(Collider other) {
-		CompleteGoal ();
+		if (other.gameObject.name == "airplane") {
+			Debug.Log ("trigger enter");
+			CompleteGoal ();
+		}
 	}
 	
 	void OnTriggerStay(Collider other) {
@@ -24,6 +26,7 @@ public class collisionConeArea : MonoBehaviour {
 
 	void CompleteGoal(){
 		circuit.CompleteGoal (goalNumber:goalNumber);
+		audio.PlayOneShot (audio.clip);
 	}
 
 }

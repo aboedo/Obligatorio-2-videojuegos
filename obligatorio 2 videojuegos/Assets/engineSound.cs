@@ -40,9 +40,9 @@ public class engineSound : MonoBehaviour {
 		else if (audio.pitch > MINIMUM_PITCH){
 			audio.pitch -= Time.deltaTime * IDLE_PITCH / timeToAccelerate;
 		}
-		audio.PlayOneShot (audio.clip);
-		
+
 	}
+	
 
 
 }

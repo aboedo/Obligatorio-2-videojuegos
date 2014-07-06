@@ -26,7 +26,6 @@ public class racetrack : MonoBehaviour {
 
 		float elapsedTime = (referenceTime - startTime);
 		float minutes  = Mathf.Floor(elapsedTime / 60);
-		Debug.Log (minutes);
 		float seconds  = Mathf.Floor(elapsedTime % 60);
 		float fraction = Mathf.Floor(elapsedTime * 100) % 100;
 		string elapsedTimeString = string.Format ("Time: {0:00}:{1:00}:{2:000}", minutes, seconds, fraction); 
