@@ -3,18 +3,27 @@ using System.Collections;
 
 public class collisionConeArea : MonoBehaviour {
 
+	public int goalNumber = 0;
+
+	public racetrack circuit;
+
+	void Start () {
+		circuit = transform.parent.parent.GetComponent<racetrack> ();
+		Debug.Log (circuit);
+	}
+
 	void OnTriggerEnter(Collider other) {
-		Debug.Log("entra a la zona");
+		CompleteGoal ();
 	}
 	
 	void OnTriggerStay(Collider other) {
-		Debug.Log("esta a la zona");
-		//other.rigidbody.transform.Rotate(Vector3.right * Time.deltaTime * hoverForce);
-		//other.rigidbody.transform.Rotate(Vector3.forward * hoverForce, Space.World);
-		//other.rigidbody.transform.Rotate(Vector3.up *hoverForce, Space.World);
 	}
 	
 	void OnTriggerExit(Collider other) {
-		Debug.Log("sale a la zona");
 	}
+
+	void CompleteGoal(){
+		circuit.CompleteGoal (goalNumber:goalNumber);
+	}
+
 }
