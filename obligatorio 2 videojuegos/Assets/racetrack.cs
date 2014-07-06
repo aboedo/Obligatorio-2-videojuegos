@@ -50,7 +50,7 @@ public class racetrack : MonoBehaviour {
 	public void CompleteGoal(int goalNumber)
 	{
 		if (goalNumber == currentGoal) {
-			ChangeCurrentGoalColor ();
+			CompleteCurrentGoal ();
 			ChangeNextGoalColor ();
 			currentGoal += 1;
 			if (currentGoal == totalGoals) {
@@ -63,13 +63,14 @@ public class racetrack : MonoBehaviour {
 		}
 	}
 
-	void ChangeCurrentGoalColor ()
+	void CompleteCurrentGoal ()
 	{
 		Transform currentGoalCube = getGoal (currentGoal);
 		if (currentGoalCube != null) {
 			Light cubeLight = currentGoalCube.GetChild(0).light;
 			cubeLight.color = Color.yellow;
 		}
+		currentGoalCube.audio.PlayOneShot (currentGoalCube.audio.clip);
 	}
 	void ChangeNextGoalColor ()
 	{

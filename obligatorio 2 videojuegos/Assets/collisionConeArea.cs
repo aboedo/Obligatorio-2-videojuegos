@@ -26,7 +26,6 @@ public class collisionConeArea : MonoBehaviour {
 
 	void CompleteGoal(){
 		circuit.CompleteGoal (goalNumber:goalNumber);
-		audio.PlayOneShot (audio.clip);
 	}
 
 }
