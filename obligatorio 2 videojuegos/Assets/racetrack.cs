@@ -6,7 +6,12 @@ public class racetrack : MonoBehaviour {
 	public int totalGoals = 13;
 	public int currentGoal = 0;
 	public Time elapsedTime;
-	
+
+	public Transform GetCurrentGoal()
+	{
+		return getGoal (currentGoal);
+	}
+
 	// Use this for initialization
 	void Start () {
 		Transform currentGoalCube = getGoal (currentGoal);
