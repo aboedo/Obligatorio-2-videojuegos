@@ -32,7 +32,6 @@ public class airplane : MonoBehaviour {
 	private bool flapsLeftPressed;
 	private bool flapsRightPressed;
 	private bool brakePressed;
-	private int propellerMultiplier = 0;
 	private Transform propellerTransform;
 	private bool grounded = false;
 

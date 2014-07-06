@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 6
   circuit: {fileID: 0}
 --- !u!65 &67704737
 BoxCollider:
@@ -981,7 +981,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 142218792}
   - 108: {fileID: 142218793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,7 +1009,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -1895,7 +1895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 8
   circuit: {fileID: 0}
 --- !u!65 &241131675
 BoxCollider:
@@ -1924,7 +1924,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 250293273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2045,7 +2045,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 287268690}
   - 108: {fileID: 287268691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2073,7 +2073,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -2107,7 +2107,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 295750867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2138,7 +2138,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 305508353}
   - 108: {fileID: 305508354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,7 +2166,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 1
   circuit: {fileID: 0}
 --- !u!65 &324778468
 BoxCollider:
@@ -3117,7 +3117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 7
   circuit: {fileID: 0}
 --- !u!65 &436032130
 BoxCollider:
@@ -3218,7 +3218,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439637551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3572,7 +3572,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497388440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3694,7 +3694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 13
   circuit: {fileID: 0}
 --- !u!65 &528851079
 BoxCollider:
@@ -3944,7 +3944,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 604319231}
   - 108: {fileID: 604319232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3972,7 +3972,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -4079,7 +4079,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 657306996}
   - 108: {fileID: 657306995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4095,7 +4095,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -4175,7 +4175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 2
   circuit: {fileID: 0}
 --- !u!65 &658755319
 BoxCollider:
@@ -4478,7 +4478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 10
   circuit: {fileID: 0}
 --- !u!65 &697692538
 BoxCollider:
@@ -4797,7 +4797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 5
   circuit: {fileID: 0}
 --- !u!65 &846377857
 BoxCollider:
@@ -5003,7 +5003,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 859745007}
   - 108: {fileID: 859745006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5019,7 +5019,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -5493,7 +5493,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 922378057}
   - 108: {fileID: 922378058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5521,7 +5521,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -6161,7 +6161,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 984745768}
   - 108: {fileID: 984745769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6189,7 +6189,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -6223,7 +6223,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1011422333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6485,7 +6485,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1032425428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6621,7 +6621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 3
   circuit: {fileID: 0}
 --- !u!65 &1044472268
 BoxCollider:
@@ -6989,7 +6989,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1101191644}
   - 108: {fileID: 1101191645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7017,7 +7017,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -7052,15 +7052,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 0b39153d97706524296cfd179bcf3dc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.3527985
+      value: -271.242737
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0b39153d97706524296cfd179bcf3dc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -.287569165
+      value: -.287576675
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0b39153d97706524296cfd179bcf3dc3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -287.132843
+      value: -468.838989
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0b39153d97706524296cfd179bcf3dc3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7133,7 +7133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1109676538}
   - 108: {fileID: 1109676537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7149,7 +7149,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -7195,7 +7195,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1119023367}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7637,7 +7637,7 @@ Transform:
   m_PrefabInternal: {fileID: 1102566418}
   m_GameObject: {fileID: 1185209957}
   m_LocalRotation: {x: -.32028833, y: -.630409062, z: -.630408883, w: .32028836}
-  m_LocalPosition: {x: 36.3527985, y: -.287569165, z: -287.132843}
+  m_LocalPosition: {x: -271.242737, y: -.287576675, z: -468.838989}
   m_LocalScale: {x: .49999994, y: .499999881, z: .49999994}
   m_Children:
   - {fileID: 489456307}
@@ -8252,7 +8252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 4
   circuit: {fileID: 0}
 --- !u!65 &1313133862
 BoxCollider:
@@ -8549,7 +8549,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1345167420}
   - 114: {fileID: 1345167421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RaceTrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8593,7 +8593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0c471864afa4114bcde3c5e23098fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalGoals: 10
+  totalGoals: 13
   currentGoal: 0
 --- !u!1 &1346816081
 GameObject:
@@ -8784,7 +8784,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1372079215}
   - 108: {fileID: 1372079214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8800,7 +8800,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -9404,7 +9404,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1470135251}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9586,7 +9586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 12
   circuit: {fileID: 0}
 --- !u!65 &1499337879
 BoxCollider:
@@ -9629,7 +9629,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1517893122}
   - 108: {fileID: 1517893123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9657,7 +9657,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -10218,7 +10218,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1640218652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10351,7 +10351,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1670369985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10382,7 +10382,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1673179293}
   - 108: {fileID: 1673179294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10410,7 +10410,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -11196,7 +11196,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1798997339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11260,7 +11260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 9
   circuit: {fileID: 0}
 --- !u!65 &1810776678
 BoxCollider:
@@ -11524,7 +11524,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1872451854}
   - 108: {fileID: 1872451853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11540,7 +11540,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: .25, b: .25, a: 1}
+  m_Color: {r: 0, g: .00689673424, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 74.9856873
   m_SpotAngle: 30
@@ -11829,7 +11829,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1942026478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11979,7 +11979,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2019262094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12229,7 +12229,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2095883532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12293,7 +12293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae1dd036f61495aa872496ed8baa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalNumber: 0
+  goalNumber: 11
   circuit: {fileID: 0}
 --- !u!65 &2102719160
 BoxCollider:
