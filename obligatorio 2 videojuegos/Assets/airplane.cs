@@ -25,6 +25,11 @@ public class airplane : MonoBehaviour {
 
 	#region variables
 
+	public bool grounded = false;
+	public GameObject shot;
+	public Transform shotPosition;
+	public float fireRate;
+	private float nextFire;
 	private Animator animator;
 	private float verticalAxis;
 	private float horizontalAxis;
@@ -33,15 +38,10 @@ public class airplane : MonoBehaviour {
 	private bool flapsRightPressed;
 	private bool brakePressed;
 	private Transform propellerTransform;
-	private bool grounded = false;
 
 	#endregion
 
-	public GameObject shot;
-	public Transform shotPosition;
-	public float fireRate;
-	private float nextFire;
-	
+
 	
 	/// ------------------------------------------------------------------------------------------------
 	// Use this for initialization
