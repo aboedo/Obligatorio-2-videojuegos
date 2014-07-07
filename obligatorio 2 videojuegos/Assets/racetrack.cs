@@ -8,7 +8,19 @@ public class racetrack : MonoBehaviour {
 	float startTime;
 	float finishTime;
 	bool finished = false;
+	bool started = false;
 	float referenceTime;
+
+	public bool isStarted()
+	{
+		return started;
+	}
+
+	public void StartRace()
+	{
+		started = true;
+		StartTimer ();
+	}
 
 	public bool isFinished()
 	{
@@ -27,10 +39,14 @@ public class racetrack : MonoBehaviour {
 
 	public string GetElapsedTime ()
 	{
-		if (!finished) {
+		if (!isStarted()) 
+		{
+			referenceTime = startTime;
+		}
+		else if (!finished) {
 			referenceTime = Time.time;
 		}
-		else 		{
+		else {
 			referenceTime = finishTime;
 		}
 
@@ -65,10 +81,7 @@ public class racetrack : MonoBehaviour {
 			currentGoal += 1;
 			if (currentGoal == totalGoals) {
 				ShowTrackCompleted();
-			} else {
-
-					
-			}
+			} 
 		}
 	}
 
@@ -94,7 +107,7 @@ public class racetrack : MonoBehaviour {
 		if (currentGoalCube != null) {
 
 			Light cubeLight = currentGoalCube.GetChild(0).light;
-			if (currentGoal + 1 == totalGoals){
+			if (currentGoal == totalGoals){
 				cubeLight.color = Color.green;
 			}
 			else{

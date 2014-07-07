@@ -9,6 +9,9 @@ public class hud : MonoBehaviour {
 	GUIStyle altitudeGuiStyle;
 	GUIStyle goalsGuiStyle;
 	GUIStyle elapsedTimeGuiStyle;
+	GUIStyle finishedSignStyle;
+	GUIStyle detailsStyle;
+
 
 
 	// Use this for initialization
@@ -24,6 +27,11 @@ public class hud : MonoBehaviour {
 		goalsGuiStyle.fontSize = 24;
 		elapsedTimeGuiStyle = new GUIStyle ();
 		elapsedTimeGuiStyle.fontSize = 24;
+		finishedSignStyle = new GUIStyle();
+		detailsStyle = new GUIStyle ();
+		finishedSignStyle.fontSize = 36;
+		detailsStyle.fontSize = 24;
+
 
 	}
 	
@@ -50,20 +58,15 @@ public class hud : MonoBehaviour {
 	{
 		int offsetX = 250;
 		int offsetY = 125;
-		GUIStyle finishedSignStyle = new GUIStyle();
-		finishedSignStyle.fontSize = 36;
-		GUIStyle detailsStyle = new GUIStyle ();
-		detailsStyle.fontSize = 24;
-		
+		string elapsedTimeString = currentRaceTrack.GetElapsedTime();
+		int totalGoals = currentRaceTrack.totalGoals;
+		int currentGoal = currentRaceTrack.currentGoal;
+		string completedGoalsString = "Completed Goals: " + currentGoal + "/" + totalGoals;
+
 		GUI.Box (new Rect (offsetX , offsetY, 
 		                   (Screen.width) - (2 * offsetX), (Screen.height) - (offsetY * 2)), "");
 		GUI.Label (new Rect ((Screen.width / 2) - 50, 135, 125, 70), "Finished", finishedSignStyle);
-		string elapsedTimeString = currentRaceTrack.GetElapsedTime();
 		GUI.Label (new Rect ((Screen.width / 2) - 75, 200, 125, 70), elapsedTimeString, detailsStyle);
-		int totalGoals = currentRaceTrack.totalGoals;
-		int currentGoal = currentRaceTrack.currentGoal;
-
-		string completedGoalsString = "Completed Goals: " + currentGoal + "/" + totalGoals;
 		GUI.Label (new Rect ((Screen.width / 2) - 100, 230, 125, 70), completedGoalsString, detailsStyle);
 	}
 

@@ -38,6 +38,7 @@ public class airplane : MonoBehaviour {
 	private bool flapsRightPressed;
 	private bool brakePressed;
 	private Transform propellerTransform;
+	private racetrack currentRaceTrack;
 
 	#endregion
 
@@ -61,6 +62,7 @@ public class airplane : MonoBehaviour {
 	void Start () {
 		animator = GetComponent<Animator> ();
 		propellerTransform = transform.FindChild ("propeller");
+		currentRaceTrack = GameObject.Find ("RaceTrack").GetComponent<racetrack> ();
 	}
 
 
@@ -151,10 +153,12 @@ public class airplane : MonoBehaviour {
 	/// </summary>
 	void FixedUpdate()
 	{
-		GetAllInput ();
-		RotatePlaneFromInput ();
-		UpdatePropeller ();
-		AddEngineForceFromInput ();
+		if (currentRaceTrack.isStarted()){
+			GetAllInput ();
+			RotatePlaneFromInput ();
+			UpdatePropeller ();
+			AddEngineForceFromInput ();
+		}
 	}
 
 
