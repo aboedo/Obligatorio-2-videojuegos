@@ -169,7 +169,7 @@ public class airplane : MonoBehaviour {
 	/// <param name="col">Col.</param>
 	void OnCollisionEnter (Collision col)
 	{
-		if(col.gameObject.name == "ground")
+		if(col.gameObject.name == "Terrain")
 		{
 			HandleCollisionWithGround();
 		}
@@ -211,7 +211,7 @@ public class airplane : MonoBehaviour {
 	/// <param name="col">Col.</param>
 	void OnCollisionExit(Collision col)
 	{
-		if(col.gameObject.name == "ground")
+		if(col.gameObject.name == "Terrain")
 		{
 			HandleTakeoff();
 		}
