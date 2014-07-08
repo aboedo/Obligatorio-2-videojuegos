@@ -50,16 +50,21 @@
      <Compile Include="Assets\backCamera.cs" />
      <Compile Include="Assets\collisionConeArea.cs" />
      <Compile Include="Assets\conePenalties.cs" />
+     <Compile Include="Assets\countdown.cs" />
      <Compile Include="Assets\engineSound.cs" />
      <Compile Include="Assets\hud.cs" />
      <Compile Include="Assets\propeller.cs" />
      <Compile Include="Assets\racetrack.cs" />
      <Compile Include="Assets\trail.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\license.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\WWII P47 Thunderbolt\aeroplanes.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/andresboedo/Ort/Videojuegos/Obligatorio 2 videojuegos/obligatorio 2 videojuegos/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

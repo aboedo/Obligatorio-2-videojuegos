@@ -1,71 +1,13 @@
 Base path: /Applications/Unity Normal/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-3--1333477376
+Pipe name: \\.\pipe\UnityShaderCompiler-3--1334009856
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=1 type=0 insize=7556 outsize=1119 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=0 type=0 insize=9506 outsize=5050 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
-  error: 1 plat 4 at (136): implicit truncation of vector type
-  error: 1 plat 4 at (137): implicit truncation of vector type
-  error: 1 plat 4 at (138): implicit truncation of vector type
-  error: 1 plat 4 at (139): implicit truncation of vector type
-  error: 1 plat 4 at (140): implicit truncation of vector type
-  api=4 type=0 insize=7556 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+  api=0 type=1 insize=9506 outsize=6 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7556 outsize=3988 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=0 type=1 insize=9506 outsize=6 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7556 outsize=3468 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=0 type=0 insize=9510 outsize=4814 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
-  error: 1 plat 4 at (136): implicit truncation of vector type
-  error: 1 plat 4 at (137): implicit truncation of vector type
-  error: 1 plat 4 at (138): implicit truncation of vector type
-  error: 1 plat 4 at (139): implicit truncation of vector type
-  error: 1 plat 4 at (140): implicit truncation of vector type
-  api=4 type=0 insize=5318 outsize=0 kw=POINT ok=0
-Cmd: compileSnippet
-  api=1 type=0 insize=5318 outsize=944 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5318 outsize=3476 kw=POINT ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=5318 outsize=1109 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
-  error: 1 plat 4 at (136): implicit truncation of vector type
-  error: 1 plat 4 at (137): implicit truncation of vector type
-  error: 1 plat 4 at (138): implicit truncation of vector type
-  error: 1 plat 4 at (139): implicit truncation of vector type
-  error: 1 plat 4 at (140): implicit truncation of vector type
-  api=4 type=0 insize=4970 outsize=0 kw= ok=0
-Cmd: compileSnippet
-  api=4 type=1 insize=4970 outsize=1705 kw= ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
-  error: 1 plat 4 at (136): implicit truncation of vector type
-  error: 1 plat 4 at (137): implicit truncation of vector type
-  error: 1 plat 4 at (138): implicit truncation of vector type
-  error: 1 plat 4 at (139): implicit truncation of vector type
-  error: 1 plat 4 at (140): implicit truncation of vector type
-  api=4 type=0 insize=7107 outsize=0 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=0
-Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
-  error: 1 plat 4 at (136): implicit truncation of vector type
-  error: 1 plat 4 at (137): implicit truncation of vector type
-  error: 1 plat 4 at (138): implicit truncation of vector type
-  error: 1 plat 4 at (139): implicit truncation of vector type
-  error: 1 plat 4 at (140): implicit truncation of vector type
-  api=4 type=0 insize=7107 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=0
-Cmd: compileSnippet
-  api=1 type=0 insize=7107 outsize=987 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7107 outsize=4134 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7107 outsize=4077 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
-End of pipe
-
-Quitting shader compiler process
+  api=0 type=1 insize=9510 outsize=6 kw=WATER_REFLECTIVE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF ok=1
