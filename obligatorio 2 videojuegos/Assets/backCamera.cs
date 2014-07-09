@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class backCamera : MonoBehaviour {
-	private bool cameraShouldShow = false;
+	private bool cameraShouldShow = true;
 	// Use this for initialization
 	void Start () {
 		camera.enabled = cameraShouldShow;
