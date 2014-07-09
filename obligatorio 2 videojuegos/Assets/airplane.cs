@@ -153,12 +153,12 @@ public class airplane : MonoBehaviour {
 	/// </summary>
 	void FixedUpdate()
 	{
-		if (currentRaceTrack.isStarted()){
+		if (currentRaceTrack.isStarted ()) {
 			GetAllInput ();
-			RotatePlaneFromInput ();
-			UpdatePropeller ();
-			AddEngineForceFromInput ();
 		}
+		RotatePlaneFromInput ();
+		AddEngineForceFromInput ();
+		UpdatePropeller ();
 	}
 
 
