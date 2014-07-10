@@ -56,15 +56,15 @@ public class hud : MonoBehaviour {
 
 	public void DrawFinishedSign()
 	{
-		int offsetX = 250;
-		int offsetY = 125;
+		int offsetX = 350;
+		int offsetY = 0;
 		string elapsedTimeString = currentRaceTrack.GetElapsedTime();
 		int totalGoals = currentRaceTrack.totalGoals;
 		int currentGoal = currentRaceTrack.currentGoal;
 		string completedGoalsString = "Completed Goals: " + currentGoal + "/" + totalGoals;
 
 		GUI.Box (new Rect (offsetX , offsetY, 
-		                   (Screen.width) - (2 * offsetX), (Screen.height) - (offsetY * 2)), "");
+		                   (Screen.width) - (2 * offsetX), (Screen.height) ), "");
 		GUI.Label (new Rect ((Screen.width / 2) - 50, 135, 125, 70), "Finished", finishedSignStyle);
 		GUI.Label (new Rect ((Screen.width / 2) - 75, 200, 125, 70), elapsedTimeString, detailsStyle);
 		GUI.Label (new Rect ((Screen.width / 2) - 100, 230, 125, 70), completedGoalsString, detailsStyle);

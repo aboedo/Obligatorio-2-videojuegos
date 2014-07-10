@@ -9,11 +9,15 @@ public class MenuLevels : MonoBehaviour {
 
 		bool isFinished = GameObject.Find ("RaceTrack").GetComponent<racetrack> ().isFinished() || Scene.GetLevel()==0;
 
-		if (isFinished && Input.GetAxis ("Vertical") == 1) {
-			GetComponent<TextMesh> ().text = "AirPort";
-		} else if (isFinished && Input.GetAxis ("Vertical") == -1) {
-			GetComponent<TextMesh> ().text = "Island";
+		if (isFinished && Input.GetButtonUp ("changeLevel")) {
+			if (GetComponent<TextMesh> ().text == "AirPort") {
+				GetComponent<TextMesh> ().text = "Island";
+			}else if (GetComponent<TextMesh> ().text == "Island") {
+				GetComponent<TextMesh> ().text = "AirPort";
+			}
 		}
+
+
 
 		if (isFinished && Input.GetButtonUp ("selectLevel")) {
 			if (GetComponent<TextMesh>().text == "AirPort") {

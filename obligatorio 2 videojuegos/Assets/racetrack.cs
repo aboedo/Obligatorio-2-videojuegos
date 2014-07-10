@@ -96,7 +96,8 @@ public class racetrack : MonoBehaviour {
 		finishTime = Time.time;
 		audio.Play ();
 
-		GameObject.Find ("ChooseLevel").GetComponent<TextMesh> ().text = "Choose Level";
+		GameObject.Find ("TextChooseLevel").GetComponent<TextMesh> ().text = "Choose Level";
+		GameObject.Find ("TextLevel").GetComponent<TextMesh> ().text = "AirPort";
 
 	}
 	
