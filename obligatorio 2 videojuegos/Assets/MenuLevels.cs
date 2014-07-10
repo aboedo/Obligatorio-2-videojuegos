@@ -17,11 +17,9 @@ public class MenuLevels : MonoBehaviour {
 
 		if (isFinished && Input.GetButtonUp ("selectLevel")) {
 			if (GetComponent<TextMesh>().text == "AirPort") {
-				Scene.changeLevel(1);
-				Application.LoadLevel(1);
+				Scene.ChangeLevel(1);
 			}	else if (GetComponent<TextMesh>().text == "Island") {
-				Scene.changeLevel(2);
-				Application.LoadLevel(2);
+				Scene.ChangeLevel(2);
 			}		
 		}
 	}

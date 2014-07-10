@@ -124,7 +124,7 @@ public class racetrack : MonoBehaviour {
 		}
 	}
 
-	Transform getGoal(int number)
+	public Transform getGoal(int number)
 	{
 		foreach (Transform goal in transform) {
 			Transform goalTransform = goal.FindChild("Cube");

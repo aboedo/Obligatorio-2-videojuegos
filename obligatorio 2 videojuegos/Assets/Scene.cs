@@ -57,9 +57,10 @@ public class Scene : MonoBehaviour {
 	}
 
 	//Dont support multiples levels =/
-	public static void changeLevel(int newLevel){
+	public static void ChangeLevel(int newLevel){
 		isLevelAirPort = newLevel ==1;
 		level = newLevel;
+		Application.LoadLevel(newLevel);
 	}
 
 	public static int GetLevel(){
