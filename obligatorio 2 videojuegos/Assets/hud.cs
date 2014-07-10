@@ -33,10 +33,12 @@ public class hud : MonoBehaviour {
 		detailsStyle.fontSize = 24;
 	}
 	
-	// Update is called once per frame
+	// Update the position of the arrow  that indicate the location of the next goal
 	void Update () {
-	
+		Transform currentGoalCube = currentRaceTrack.GetCurrentGoal();
+		GameObject.FindGameObjectsWithTag ("Arrow") [0].transform.LookAt (currentGoalCube);
 	}
+
 	void OnGUI () {
 		DrawSpeed ();
 		DrawAltitude ();

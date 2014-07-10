@@ -85,8 +85,6 @@ public class airplane : MonoBehaviour {
 		flapsLeftPressed = Input.GetAxis("flapsLeft") == 1;
 		flapsRightPressed = Input.GetAxis("flapsRight") == 1;
 
-		Transform currentGoalCube = currentRaceTrack.getGoal (0);
-		GameObject.FindGameObjectsWithTag ("Arrow") [0].transform.LookAt (currentGoalCube);
 	}
 
 
