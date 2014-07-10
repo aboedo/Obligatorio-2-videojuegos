@@ -128,7 +128,7 @@ Material:
       data:
         first:
           name: _BumpTiling
-        second: {r: .0399999991, g: .0399999991, b: .0399999991, a: .0799999982}
+        second: {r: .00999999978, g: .00999999978, b: .102799997, a: .236399993}
       data:
         first:
           name: _BumpDirection
@@ -156,7 +156,7 @@ Material:
       data:
         first:
           name: _GAmplitude
-        second: {r: .300000012, g: .200000003, b: .25, a: .25}
+        second: {r: 1.38, g: 1.04999995, b: .25, a: .25}
       data:
         first:
           name: _GFrequency
@@ -164,7 +164,7 @@ Material:
       data:
         first:
           name: _GSteepness
-        second: {r: 3.03013062, g: 1, b: 1, a: 1}
+        second: {r: 1.76999998, g: 1, b: 1, a: 1}
       data:
         first:
           name: _GSpeed
