@@ -20,7 +20,6 @@ public class racetrack : MonoBehaviour {
 	{
 		started = true;
 		StartTimer ();
-		//ShowTrackCompleted();
 	}
 
 	public bool isFinished()
@@ -84,7 +83,7 @@ public class racetrack : MonoBehaviour {
 			CompleteCurrentGoal ();
 			ChangeNextGoalColor ();
 			currentGoal += 1;
-			if (currentGoal != totalGoals) {
+			if (currentGoal == totalGoals) {
 				ShowTrackCompleted();
 			} 
 		}
