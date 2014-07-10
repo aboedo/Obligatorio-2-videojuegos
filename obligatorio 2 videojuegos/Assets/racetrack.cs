@@ -20,6 +20,7 @@ public class racetrack : MonoBehaviour {
 	{
 		started = true;
 		StartTimer ();
+		//ShowTrackCompleted();
 	}
 
 	public bool isFinished()
@@ -37,8 +38,7 @@ public class racetrack : MonoBehaviour {
 		return getGoal (currentGoal);
 	}
 
-	public string GetElapsedTime ()
-	{
+	public float GetElapsedTimeFloat(){
 		if (!isStarted()) 
 		{
 			referenceTime = startTime;
@@ -49,8 +49,13 @@ public class racetrack : MonoBehaviour {
 		else {
 			referenceTime = finishTime;
 		}
+		
+		return (referenceTime - startTime);
+	}
 
-		float elapsedTime = (referenceTime - startTime);
+	public string GetElapsedTime ()
+	{
+		float elapsedTime = GetElapsedTimeFloat ();
 		float minutes  = Mathf.Floor(elapsedTime / 60);
 		float seconds  = Mathf.Floor(elapsedTime % 60);
 		float fraction = Mathf.Floor(elapsedTime * 100) % 100;
@@ -79,7 +84,8 @@ public class racetrack : MonoBehaviour {
 			CompleteCurrentGoal ();
 			ChangeNextGoalColor ();
 			currentGoal += 1;
-			if (currentGoal == totalGoals) {
+			if (currentGoal != totalGoals) {
+				Records.AddRecords (GetElapsedTimeFloat());
 				ShowTrackCompleted();
 			} 
 		}

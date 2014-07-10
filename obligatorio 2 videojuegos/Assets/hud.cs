@@ -31,8 +31,6 @@ public class hud : MonoBehaviour {
 		detailsStyle = new GUIStyle ();
 		finishedSignStyle.fontSize = 36;
 		detailsStyle.fontSize = 24;
-
-
 	}
 	
 	// Update is called once per frame
@@ -54,7 +52,7 @@ public class hud : MonoBehaviour {
 		}
 	}
 
-	void DrawFinishedSign()
+	public void DrawFinishedSign()
 	{
 		int offsetX = 250;
 		int offsetY = 125;
@@ -68,6 +66,25 @@ public class hud : MonoBehaviour {
 		GUI.Label (new Rect ((Screen.width / 2) - 50, 135, 125, 70), "Finished", finishedSignStyle);
 		GUI.Label (new Rect ((Screen.width / 2) - 75, 200, 125, 70), elapsedTimeString, detailsStyle);
 		GUI.Label (new Rect ((Screen.width / 2) - 100, 230, 125, 70), completedGoalsString, detailsStyle);
+
+		GUI.Label (new Rect ((Screen.width / 2) - 50, 300, 125, 70), "Records", finishedSignStyle);
+
+		int space =0;
+		for (int i = 0; i < Records.GetRecords().Count; i++) {
+			float record = (float)Records.GetRecords()[i] ;
+			string recordPosition = string.Format("{0} - {1}",i+1,formatElapsedTime(record));
+			GUI.Label (new Rect ((Screen.width / 2) - 50, 370 + space, 125, 70), recordPosition, detailsStyle);
+			space+=30;
+		}
+	
+	}
+
+	public string formatElapsedTime(float elapsedTime){
+		float minutes  = Mathf.Floor(elapsedTime / 60);
+		float seconds  = Mathf.Floor(elapsedTime % 60);
+		float fraction = Mathf.Floor(elapsedTime * 100) % 100;
+		string elapsedTimeString = string.Format ("{0:00}:{1:00}:{2:000}", minutes, seconds, fraction); 
+		return elapsedTimeString;
 	}
 
 	void DrawElapsedTime()
