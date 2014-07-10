@@ -90,12 +90,12 @@ public class hud : MonoBehaviour {
 	void DrawElapsedTime()
 	{
 		string elapsedTimeString = currentRaceTrack.GetElapsedTime();
-		GUI.Box (new Rect ((Screen.width / 2) - 75 , 25, 125, 70), elapsedTimeString, goalsGuiStyle);
+		GUI.Box (new Rect (25 , Screen.height - 35, 125, 70), elapsedTimeString, goalsGuiStyle);
 	}
 
 	void DrawTopCenterHudBox ()
 	{
-		GUI.Box (new Rect ((Screen.width / 2) - 100 , 20, 225, 70), "");
+		GUI.Box (new Rect (5 , Screen.height - 75, 225, 70), "");
 	}
 
 	void DrawCompletedGoals()
@@ -103,7 +103,7 @@ public class hud : MonoBehaviour {
 		int totalGoals = currentRaceTrack.totalGoals;
 		int currentGoal = currentRaceTrack.currentGoal;
 		string completedGoalsString = "Completed: " + currentGoal + "/" + totalGoals;
-		GUI.Box (new Rect ((Screen.width / 2) - 75 , 50, 150, 70), completedGoalsString, goalsGuiStyle);
+		GUI.Box (new Rect (25 , Screen.height - 65, 150, 70), completedGoalsString, goalsGuiStyle);
 	}
 
 	void DrawSpeed()
