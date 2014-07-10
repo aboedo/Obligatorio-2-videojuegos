@@ -70,8 +70,8 @@ public class hud : MonoBehaviour {
 		GUI.Label (new Rect ((Screen.width / 2) - 50, 300, 125, 70), "Records", finishedSignStyle);
 
 		int space =0;
-		for (int i = 0; i < Records.GetRecords().Count; i++) {
-			float record = (float)Records.GetRecords()[i] ;
+		for (int i = 0; i < Scene.GetRecords().Count; i++) {
+			float record = (float)Scene.GetRecords()[i] ;
 			string recordPosition = string.Format("{0} - {1}",i+1,formatElapsedTime(record));
 			GUI.Label (new Rect ((Screen.width / 2) - 50, 370 + space, 125, 70), recordPosition, detailsStyle);
 			space+=30;

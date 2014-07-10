@@ -85,7 +85,6 @@ public class racetrack : MonoBehaviour {
 			ChangeNextGoalColor ();
 			currentGoal += 1;
 			if (currentGoal != totalGoals) {
-				Records.AddRecords (GetElapsedTimeFloat());
 				ShowTrackCompleted();
 			} 
 		}
@@ -93,9 +92,13 @@ public class racetrack : MonoBehaviour {
 
 	void ShowTrackCompleted()
 	{
+		Scene.AddRecords (GetElapsedTimeFloat());
 		finished = true;
 		finishTime = Time.time;
 		audio.Play ();
+
+		GameObject.Find ("ChooseLevel").GetComponent<TextMesh> ().text = "Choose Level";
+
 	}
 	
 	void CompleteCurrentGoal ()
