@@ -29,7 +29,6 @@ public class countdown : MonoBehaviour {
 			}
 			referenceTime = Time.time;
 			if (referenceTime < startTime + 1) {
-
 				GUI.DrawTexture(new Rect (offset , offset, 
 				                          (Screen.width) - (2 * offset), (Screen.height) - (offset * 2)), texture3, ScaleMode.ScaleToFit, true, 0f);
 			}
@@ -47,8 +46,6 @@ public class countdown : MonoBehaviour {
 				GUI.DrawTexture(new Rect (offset , offset, 
 				                          (Screen.width) - (2 * offset), (Screen.height) - (offset * 2)), textureGo, ScaleMode.ScaleToFit, true, 0f);
 			}
-
-
 			else {
 				countDownFinished = true;
 			}

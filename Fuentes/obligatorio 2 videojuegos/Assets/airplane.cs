@@ -33,6 +33,7 @@ public class airplane : MonoBehaviour {
 	private Animator animator;
 	private float verticalAxis;
 	private float horizontalAxis;
+	private bool turboPressed;
 	private bool throttlePressed;
 	private bool flapsLeftPressed;
 	private bool flapsRightPressed;
@@ -85,6 +86,7 @@ public class airplane : MonoBehaviour {
 		flapsLeftPressed = Input.GetAxis("flapsLeft") == 1;
 		flapsRightPressed = Input.GetAxis("flapsRight") == 1;
 
+		turboPressed = Input.GetAxis ("changeLevel") ==1;
 	}
 
 
@@ -160,6 +162,24 @@ public class airplane : MonoBehaviour {
 		RotatePlaneFromInput ();
 		AddEngineForceFromInput ();
 		UpdatePropeller ();
+		Turbo ();
+	}
+
+	void Turbo(){
+		//change camera view and add more force to the rigidbody
+		if (turboPressed) {
+			if (Camera.main.fieldOfView <120 && rigidbody.velocity.magnitude < MAX_VELOCITY * 2) {
+				rigidbody.AddForce (transform.up * ENGINE_THROTTLE_FORCE * -1); 
+				Camera.main.fieldOfView ++;
+			}else{
+				Camera.main.fieldOfView = 120;
+			}
+		} else if (Camera.main.fieldOfView >51) {
+			Camera.main.fieldOfView --;
+			//rigidbody.AddForce (transform.up * ENGINE_STOP_FORCE * -1); 
+		}else{
+			Camera.main.fieldOfView = 51;
+		}
 	}
 
 
